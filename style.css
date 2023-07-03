@@ -218,7 +218,7 @@ ul li:hover {
 
 .cta-text h1 {
     color: #FFF;
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 800;
     margin-bottom: 16px;
     letter-spacing: .40px;
@@ -226,6 +226,36 @@ ul li:hover {
 
 .cta-text p {
     color: #DCDCDC;
-    font-size: 18px;
+    font-size: 1.125rem;
     letter-spacing: .20px;
+}
+
+/* ============= Footer Section ============= */
+
+footer {
+    background: linear-gradient(315deg, #564840 0%, #222 45.31%);
+}
+
+footer .section-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+
+    color: #929292;
+    font-size: 1rem;
+}
+
+.copyright {
+    display: flex;
+    align-items: center;
+}
+
+.copyright a {
+    margin-left: 16px;
+}
+
+.copyright a:focus, .copyright a:hover {
+    color: #D9C290;
+    transform: scale(1.1);
 }
