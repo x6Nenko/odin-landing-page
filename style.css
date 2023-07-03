@@ -9,7 +9,6 @@
 body {
     background-color: #f5f5f5;
     font-family: 'Montserrat', sans-serif;
-    letter-spacing: 1.92px;
 }
 
 .hero-section {
@@ -32,11 +31,16 @@ a {
     display: inline-block;
     border-radius: 10px;
     background: #DDC297;
-    box-shadow: 0px 0px 30px 0px rgba(255, 241, 114, 0.25);
+    box-shadow: 0px 0px 30px 2px rgba(255, 241, 114, 0.25);
     padding: 15px 25px;
     color: #222;
     font-size: 18px;
     font-weight: 600;
+}
+
+.primary-button:hover, .primary-button.focus {
+    background-color: #FFEAC9;
+    transform: scale(1.01);
 }
 
 /* ============= Navbar ============= */
@@ -61,6 +65,10 @@ ul {
     z-index: 999;
 }
 
+ul li:hover {
+    transform: scale(1.1);
+}
+
 /* ============= Hero Section ============= */
 
 .hero-section .section-wrapper {
@@ -74,25 +82,30 @@ ul {
 
 .hero-image {
     margin-top: -25px;
+    width: 699px;
+    height: 427px;
 }
 
 .hero-content {
-    margin-top: 90px;
+    margin-top: 112px;
 }
 
 .hero-content h1 {
     width: 480px;
     color: #FFF;
-    font-size: 48px;
+    font-size: 3rem;
     font-weight: 800;
+    letter-spacing: 1px;
 }
 
 .hero-content p {
-    margin-top: 20px;
+    margin-top: 18px;
     color: #DCDCDC;
-    font-size: 18px;
+    font-size: 1.125rem;
+    letter-spacing: .20px;
 }
 
 .primary-button {
-    margin-top: 30px;
+    margin-top: 36px;
+    font-size: 1.125rem;
 }
