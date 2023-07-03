@@ -12,12 +12,6 @@ body {
     overflow-x: hidden;
 }
 
-.hero-section {
-    width: 100vw;
-    height: 600px;
-    background: linear-gradient(315deg, #564840 0%, #222 45.31%);
-}
-
 .section-wrapper {
     max-width: 1440px;
     margin: auto;
@@ -35,7 +29,7 @@ a {
     box-shadow: 0px 0px 30px 2px rgba(255, 241, 114, 0.25);
     padding: 15px 25px;
     color: #222;
-    font-size: 18px;
+    font-size: 1.125rem;
     font-weight: 600;
 }
 
@@ -71,6 +65,12 @@ ul li:hover {
 }
 
 /* ============= Hero Section ============= */
+
+.hero-section {
+    width: 100vw;
+    height: 600px;
+    background: linear-gradient(315deg, #564840 0%, #222 45.31%);
+}
 
 .hero-section .section-wrapper {
     padding: 60px 120px;
@@ -140,12 +140,59 @@ ul li:hover {
     align-items: center;
 }
 
+.card-image:hover {
+    transform: scale(.99);
+    background-color: #fff;
+}
+
 .card p {
     margin-top: 16px;
     max-width: 180px;
     text-align: center;
     color: #222;
-    font-size: 18px;
+    font-size: 1.125em;
+    letter-spacing: .20px;
 }
 
 /* ============= Quote Section ============= */
+
+.quote-section {
+    width: 100vw;
+    height: 400px;
+    background: linear-gradient(135deg, #564840 0%, #222 46.35%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.quote-container {
+    width: 900px;
+    text-align: center;
+}
+
+.quote-text {
+    color: #FFF;
+    font-size: 36px;
+    font-family: Baskervville;
+    font-style: italic;
+    font-weight: 400;
+    letter-spacing: .40px;
+}
+
+.quote-author {
+    margin-top: 16px;
+    color: #929292;
+    font-size: 1.125em;
+    font-weight: 500;
+}
+
+.background-vector {
+    background-image: url(./assets/Vector.png);
+    width: 200px;
+    height: 200px;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 90
+}
